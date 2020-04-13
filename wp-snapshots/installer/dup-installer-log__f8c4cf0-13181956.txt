@@ -1,0 +1,201 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:16:13
+* VERSION: 1.3.14
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO_ CURRENT SERVER                                | ORIGINAL SERVER
+PHP VERSION__:7.3.0                                         | 7.2.29
+OS___________:WINNT                                         | WINNT
+CREATED______:2020-04-13 18:19:56
+WP VERSION___:5.4
+DUP VERSION__:1.3.14
+DB___________:10.1.37
+DB TABLES____:19
+DB ROWS______:715
+DB FILE SIZE_:3.23MB
+********************************************************************************
+PHP:		7.2.29 | SAPI: apache2handler
+PHP MEMORY:	"4294967296" | SUHOSIN: "disabled"
+SERVER:		"Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.2.29"
+DOC ROOT:	"C:/xampp/htdocs/aditya/project3"
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	"http://localhost/aditya/project3/dup-installer/main.installer.php"
+SAFE MODE :	"0"
+CONFIG MODE :	"NEW"
+--------------------------------------
+PRE-EXTRACT-CHECKS
+--------------------------------------
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	urbanclothing1_f8c4cf0ea9a16a848485_20200413181956_archive.zip
+SIZE:	40.12MB
+
+>>> Starting ZipArchive Unzip
+[PHP ERR][NOTICE] MSG:Undefined variable: extract_filenamesdupInstallerFolder [CODE:8|FILE:C:\xampp\htdocs\aditya\project3\dup-installer\ctrls\ctrl.s1.php|LINE:175]
+[PHP ERR][NOTICE] MSG:Undefined variable: dupInstallerFolder [CODE:8|FILE:C:\xampp\htdocs\aditya\project3\dup-installer\ctrls\ctrl.s1.php|LINE:183]
+[PHP ERR][NOTICE] MSG:Undefined variable: dupInstallerFolder [CODE:8|FILE:C:\xampp\htdocs\aditya\project3\dup-installer\ctrls\ctrl.s1.php|LINE:186]
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6448
+    [filename] => C:\xampp\htdocs\aditya\project3\urbanclothing1_f8c4cf0ea9a16a848485_20200413181956_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2020-04-13 21:18:03
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 09:18:03 - RUNTIME: 109.9396 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:19:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.11 -- Build Server: 10.1.37
+FILE SIZE:	dup-database__f8c4cf0-13181956.sql (2.3MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/aditya/project3/dup-installer/dup-installer-data__f8c4cf0-13181956.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\xampp\htdocs\aditya\project3\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	178
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (156)
+wp_postmeta: (315)
+wp_posts: (86)
+wp_revslider_css: (112)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_sliders: (1)
+wp_revslider_slides: (2)
+wp_revslider_static_slides: (0)
+wp_term_relationships: (4)
+wp_term_taxonomy: (2)
+wp_termmeta: (0)
+wp_terms: (2)
+wp_usermeta: (22)
+wp_users: (1)
+Removed '27' cache/transient rows
+
+INSERT DATA RUNTIME: 40.3887 sec.
+STEP-2 COMPLETE @ 09:19:52 - RUNTIME: 40.3975 sec.
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP-3 START @ 09:23:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (156)
+wp_postmeta~ (315)
+wp_posts~ (86)
+wp_revslider_css~ (112)
+wp_revslider_layer_animations^ (0)
+wp_revslider_navigations^ (0)
+wp_revslider_sliders~ (1)
+wp_revslider_slides~ (2)
+wp_revslider_static_slides^ (0)
+wp_term_relationships~ (4)
+wp_term_taxonomy~ (2)
+wp_termmeta^ (0)
+wp_terms~ (2)
+wp_usermeta~ (22)
+wp_users~ (1)
+--------------------------------------
+Search1:	'C:/xampp/htdocs/projects/urbanclothing' 
+Change1:	'C:/xampp/htdocs/aditya/project3' 
+Search2:	'C:\/xampp\/htdocs\/projects\/urbanclothing' 
+Change2:	'C:\/xampp\/htdocs\/aditya\/project3' 
+Search3:	'C%3A%2Fxampp%2Fhtdocs%2Fprojects%2Furbanclothing%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Faditya%2Fproject3%2F' 
+Search4:	'C:\xampp\htdocs\projects\urbanclothing' 
+Change4:	'C:/xampp/htdocs/aditya/project3' 
+Search5:	'C:\\xampp\\htdocs\\projects\\urbanclothing' 
+Change5:	'C:\/xampp\/htdocs\/aditya\/project3' 
+Search6:	'C%3A%5Cxampp%5Chtdocs%5Cprojects%5Curbanclothing' 
+Change6:	'C%3A%2Fxampp%2Fhtdocs%2Faditya%2Fproject3' 
+Search7:	'//localhost/projects/urbanclothing' 
+Change7:	'//localhost/aditya/project3' 
+Search8:	'\/\/localhost\/projects\/urbanclothing' 
+Change8:	'\/\/localhost\/aditya\/project3' 
+Search9:	'%2F%2Flocalhost%2Fprojects%2Furbanclothing' 
+Change9:	'%2F%2Flocalhost%2Faditya%2Fproject3' 
+Search10:	'https://localhost' 
+Change10:	'http://localhost' 
+Search11:	'https:\/\/localhost' 
+Change11:	'http:\/\/localhost' 
+Search12:	'https%3A%2F%2Flocalhost' 
+Change12:	'http%3A%2F%2Flocalhost' 
+SCANNED:	Tables:19 	|	 Rows:704 	|	 Cells:4697 
+UPDATED:	Tables:3 	|	 Rows:119 	|	 Cells:135 
+ERRORS:		0 
+RUNTIME:	3.375800 sec
+
+NEW WP-ADMIN USER:
+[PHP ERR][NOTICE] MSG:Undefined variable: newuser_test2 [CODE:8|FILE:C:\xampp\htdocs\aditya\project3\dup-installer\ctrls\ctrl.s3.php|LINE:289]
+- New username 'Aditya200434215' was created successfully.
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'C:/xampp/htdocs/aditya/project3/wp-config.php'
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+FINAL REPORT NOTICES
+
+STEP-3 COMPLETE @ 09:23:08 - RUNTIME: 4.4451 sec. 
+
+

@@ -1,0 +1,73 @@
+/*
+Theme Name: Urban Clothing
+Author: Urban Clothing
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+body{
+    font-size:14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.elementor-widget-text-editor{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.logo{
+    padding:5px;
+}
+h1,h2,h3,h4,h5,h6,a{
+    color:#2E3192;
+}
+.elementor-widget-heading .elementor-heading-title{
+    color:#2E3192 !important;
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 100;
+    color: #4c4b4b;
+}
+a{
+    font-size: 15px;
+}
+a,h1,h2,h3,h4,h5,h6{
+    color:#000;
+}
+.site-header img{
+    width:130px;
+}
+.entry-header{
+    display:none;
+}
+.nav ul {
+    list-style: none;
+    padding: 0px;
+}
+.header-featured-image{
+    width:100%;
+    position:relative;
+}
+.header-featured-image-title{
+    position:absolute;
+    left: 42%;
+    top: 50%;
+}
+.header-featured-image-title p{
+    color:#fff;
+    font-size:40px;
+    font-weight: bold;
+}
+@media screen and (max-width: 767.99px) {
+      .header-featured-image-title p{
+        color:#fff;
+        font-size:24px;
+    } 
+    #wpcf7-f7-p229-o1 input{
+        width:100%;
+    }
+}
+.header-featured-image img{
+    width:100%;
+    
+}
